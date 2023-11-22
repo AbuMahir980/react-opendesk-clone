@@ -14,9 +14,6 @@ import theguardian from '../assets/images/logos/theguardian.png'
 import wework from '../assets/images/logos/wework.png'
 import wired from '../assets/images/logos/wired.png'
 import greenpeace from '../assets/images/logos/greenpeace.png'
-// import bg from '../assets/images/opendesk_bg-img-1200x640.jpg'
-// import maker from '../assets/images/opendesk_homepage_maker-feature_renatus.full_-1200x640.jpg'
-// import lean from '../assets/images/opendesk_leandesk_homepage.jpg'
 import '../css/Main.css'
 
 
