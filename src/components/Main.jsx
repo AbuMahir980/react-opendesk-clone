@@ -23,13 +23,13 @@ import '../css/Main.css'
 const Main = () => {
 
     return(
-        <main class="container">
+        <main className="container">
 
             {/* <!-- hero section structure + content --> */}
-            <div class="hero">
-                <div class="hero-bg-img"></div>
-                <div class="bg-opacity"></div>
-                <div class="hero-texts">
+            <div className="hero">
+                <div className="hero-bg-img"></div>
+                <div className="bg-opacity"></div>
+                <div className="hero-texts">
                     <h2 id="highlight">
                         Furniture designed for inspiring workplaces
                     </h2>
@@ -41,36 +41,36 @@ const Main = () => {
             </div>
 
             {/* <!-- Items display section structure + content --> */}
-            <div class="item-display">
-                <div class="item-display-row">
-                    <div class="items">
+            <div className="item-display">
+                <div className="item-display-row">
+                    <div className="items">
                         <a href="#">
                             <img src={desk} alt="lean-desk"/>
-                            <h2 class="items-title">Lean Desk</h2>
-                            <p class="items-tagline">Generous four seat workstation</p>
+                            <h2 className="items-title">Lean Desk</h2>
+                            <p className="items-tagline">Generous four seat workstation</p>
                         </a>
                     </div>
-                    <div class="items">
+                    <div className="items">
                         <a href="#">
                             <img src={bookshelf}alt="linnea-bookshelf" />
-                            <h2 class="items-title">Linnea Bookshelf</h2>
-                            <p class="items-tagline">Elegant shelving & storage solution</p>
+                            <h2 className="items-title">Linnea Bookshelf</h2>
+                            <p className="items-tagline">Elegant shelving & storage solution</p>
                         </a>
                     </div>
-                    <div class="items">
+                    <div className="items">
                         <a href="#">
                             <img src={bench} alt="johann-bench" />
-                            <h2 class="items-title">Johann Bench</h2>
-                            <p class="items-tagline">2 Person canteen and meeting bench</p>
+                            <h2 className="items-title">Johann Bench</h2>
+                            <p className="items-tagline">2 Person canteen and meeting bench</p>
                         </a>
                     </div>
                 </div>
             </div>
 
             {/* <!-- Brand identity section structure + contents --> */}
-            <div class="brand-identity">
-                <div class="brand-identity-img"></div>
-                <div class="brand-identity-statements">
+            <div className="brand-identity">
+                <div className="brand-identity-img"></div>
+                <div className="brand-identity-statements">
                     <h2 id="brand-identity-headline">
                         A global platform for local making
                     </h2>
@@ -81,58 +81,58 @@ const Main = () => {
             </div>
 
             {/* <!-- Purchase process section structure + contents --> */}
-            <div class="process bg-color-grey">
-                <h2 class="process-headline">
+            <div className="process bg-color-grey">
+                <h2 className="process-headline">
                     How IT WORKS
                 </h2>
-                <div class="process-steps">
-                    <div class="process-step-items">
+                <div className="process-steps">
+                    <div className="process-step-items">
                         <img src={process1} alt=""/>
-                        <h2 class="process-step-titles">Select designs</h2>
-                        <p class="process-step-tagline"><a href="#" class="tags">Browse</a> and add designs to your basket or <a href="#" class="tags">get in touch</a> for help</p>
+                        <h2 className="process-step-titles">Select designs</h2>
+                        <p className="process-step-tagline"><a href="#" className="tags">Browse</a> and add designs to your basket or <a href="#" className="tags">get in touch</a> for help</p>
                     </div>
 
-                    <div class="process-step-items">
+                    <div className="process-step-items">
                         <img src={process2} alt=""/>
-                        <h2 class="process-step-titles">Request quotes</h2>
-                        <p class="process-step-tagline">Get quotes from local makers in your area within two business days</p>
+                        <h2 className="process-step-titles">Request quotes</h2>
+                        <p className="process-step-tagline">Get quotes from local makers in your area within two business days</p>
                     </div>
 
-                    <div class="process-step-items">
+                    <div className="process-step-items">
                         <img src={process3} alt=""/>
-                        <h2 class="process-step-titles">Choose your maker</h2>
-                        <p class="process-step-tagline">Choose the local maker&rsquo;s quote that works best for you</p>
+                        <h2 className="process-step-titles">Choose your maker</h2>
+                        <p className="process-step-tagline">Choose the local maker&rsquo;s quote that works best for you</p>
                     </div>
 
-                    <div class="process-step-items">
+                    <div className="process-step-items">
                         <img src={process4} alt=""/>
-                        <h2 class="process-step-titles">Receive your furniture</h2>
-                        <p class="process-step-tagline padd">Get furniture delivered to your door in 2-4 weeks, direct from your maker</p>
+                        <h2 className="process-step-titles">Receive your furniture</h2>
+                        <p className="process-step-tagline padd">Get furniture delivered to your door in 2-4 weeks, direct from your maker</p>
                     </div>
                 </div>
                 <button type="submit">Get started</button>
             </div>
             
             {/* <!--Company Partners section structure + contents--> */}
-            <div class="partners-logos">
-                <div class="logos">
-                    <img src={nike} alt="Nike-logo" class="sizing"/>
+            <div className="partners-logos">
+                <div className="logos">
+                    <img src={nike} alt="Nike-logo" className="sizing"/>
                 </div>
-                <div class="logo">
-                    <img src={wework} alt="wework-logo" class="sizing"/>
+                <div className="logo">
+                    <img src={wework} alt="wework-logo" className="sizing"/>
                 </div>
-                <div class="logo">
-                    <img src={google} alt="Google-logo" class="sizing"/>
+                <div className="logo">
+                    <img src={google} alt="Google-logo" className="sizing"/>
                 </div>
-                <div class="logos">
-                    <img src={greenpeace} alt="Greenpeace-logo" class="sizing"/>
+                <div className="logos">
+                    <img src={greenpeace} alt="Greenpeace-logo" className="sizing"/>
                 </div>
             </div>
 
             {/* <!--Purchase case studies section structure + contents --> */}
-            <div class="purchase">
-                <div class="purchase_bg-img"></div>
-                <div class="purchase-texts">
+            <div className="purchase">
+                <div className="purchase_bg-img"></div>
+                <div className="purchase-texts">
                     <h2 id="purchase-headline">
                         Inspiring workplaces for amazing companies
                     </h2>
@@ -144,7 +144,7 @@ const Main = () => {
             </div>
 
             {/* <!-- Customers quote section structure + contents --> */}
-            <div class="quote">
+            <div className="quote">
                 <h2 id="quote-headline">The Guardian</h2>
                 <p id="quote-tagline">
                     &ldquo;Opendesk is changing the way furniture is produced and moved, cutting out time-consuming and expensive shipping, showrooms and storage.&rdquo;
@@ -152,21 +152,21 @@ const Main = () => {
             </div>
 
             {/* <!--Company Partners 2nd section structure + contents--> */}
-            <div class="partners-logos" id="second-logo">
-                <div class="logos2">
-                    <img src={fastcompany} alt="fastcompany-logo" class="sizing"/>
+            <div className="partners-logos" id="second-logo">
+                <div className="logos2">
+                    <img src={fastcompany} alt="fastcompany-logo" className="sizing"/>
                 </div>
-                <div class="logos2">
-                    <img src={wired} alt="wired-logo" class="sizing"/>
+                <div className="logos2">
+                    <img src={wired} alt="wired-logo" className="sizing"/>
                 </div>
-                <div class="logos2">
-                    <img src={techcrunch} alt="techcrunch-logo" class="sizing"/>
+                <div className="logos2">
+                    <img src={techcrunch} alt="techcrunch-logo" className="sizing"/>
                 </div>
-                <div class="logos2">
-                    <img src={theguardian} alt="theguardian-logo" class="sizing"/>
+                <div className="logos2">
+                    <img src={theguardian} alt="theguardian-logo" className="sizing"/>
                 </div>
-                <div class="logos2">
-                    <img src={dezeen} alt="dezeen-logo" class="sizing"/>
+                <div className="logos2">
+                    <img src={dezeen} alt="dezeen-logo" className="sizing"/>
                 </div>
             </div>
         </main>

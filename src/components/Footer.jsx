@@ -11,28 +11,28 @@ import '../css/Footer.css'
 const Footer = () => {
     return(
         <footer>
-            <div class="container">
-                <div class="footer-top">
-                    <div class="footer-logo">
+            <div className="container">
+                <div className="footer-top">
+                    <div className="footer-logo">
                         <img src={footerLogo} alt="opendesk-footer-logo"/>
                     </div>
 
-                    <div class="links">
-                        <div class="link-items" id="about">
+                    <div className="links">
+                        <div className="link-items" id="about">
                             <a href="">About</a>
                         </div>
-                        <div class="link-items" id="contact">
+                        <div className="link-items" id="contact">
                             <a href="">Contact</a>
                         </div>
-                        <div class="link-items" id="terms">
+                        <div className="link-items" id="terms">
                             <a href="">Terms of Use</a>
                         </div>
-                        <div class="link-items" id="jobs">
+                        <div className="link-items" id="jobs">
                             <a href="">Jobs</a>
                         </div>
                     </div>
 
-                    <div class="socials">
+                    <div className="socials">
                         <a href=""><img src={twitter} alt="twitter-icon-link"/></a>
                         <a href=""><img src={facebook} alt="facebook-icon-link"/></a>
                         <a href=""><img src={instagram} alt="instagram-icon-link"/></a>
@@ -44,14 +44,14 @@ const Footer = () => {
                 </div>
             </div>
             <hr id="rule"/>
-            <div class="container">    
-                <div class="footer-bottom">
-                    <div class="newsletter">
+            <div className="container">    
+                <div className="footer-bottom">
+                    <div className="newsletter">
                         <button type="submit" id="newsletter">Sign up to our newsletter</button>
                     </div>
-                    <div class="feedback">
-                        <p class="feedback-statement">Let us know your thoughts about things you love and things that can be improved on the site:</p>
-                        <a href="#" class="feedback-statement" id="line">The art of sharing</a>
+                    <div className="feedback">
+                        <p className="feedback-statement">Let us know your thoughts about things you love and things that can be improved on the site:</p>
+                        <a href="#" className="feedback-statement" id="line">The art of sharing</a>
                     </div>
                 </div>
             </div>

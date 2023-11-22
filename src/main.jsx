@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './components/App.jsx'
-import './css/index.css'
+// import './css/index.css'
 import './css/body.css'
 import './css/Footer.css'
 import Nav from './components/Nav.jsx'
