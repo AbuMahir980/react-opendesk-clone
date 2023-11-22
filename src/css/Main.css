@@ -1,0 +1,290 @@
+/* main .hero section styling */
+
+.hero{
+    /* height: 640px; */
+    position: relative;
+    color: #ffffff;
+    background-color: #000;
+    
+}
+.hero .hero-bg-img{
+    background-image: url(../assets/images/opendesk_bg-img-1200x640.jpg);
+    /* background-position:center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 640px;
+    opacity: 0.6;
+} 
+
+.hero .hero-texts {
+    position: absolute;
+    top: 170px;
+    left: 130px;
+    max-width: 400px;
+}
+
+.hero .hero-texts #highlight {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 28px 0px;
+}
+
+.hero .hero-texts #tagline  {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    margin: 35px 0px;
+}
+
+.hero .hero-texts button {
+    background-color: #008955;
+    border: none;
+    width: 180px;
+    height: 46px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/* Item-display section styling */
+.item-display {
+    background-color: #f1f1f1;
+    color: #000000;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.item-display .item-display-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-display .item-display-row .items {
+    width: 400px;
+    height: 350px;
+    margin: 20px 20px;
+    border: solid 1px #f8f8f9;
+}
+
+.item-display .item-display-row .items a {
+    text-decoration: none;
+    color: #000;
+}
+.item-display .item-display-row .items img {
+    display: block;
+    width: 100%;
+}
+
+.item-display .item-display-row .items a > .items-title {
+    font-weight: 400;
+    margin: 11px 0px 21px;
+}
+.item-display .item-display-row .items a >.items-tagline {
+    margin: 15px 0px;
+}
+/* Brand-identity styling */
+.brand-identity {
+    /* color: #ffffff; */
+    position: relative;
+    color: #ffffff;
+    background-color: #000;
+}
+.brand-identity .brand-identity-img {
+    background-image: url(../assets/images/opendesk_homepage_maker-feature_renatus.full_-1200x640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 640px;
+    opacity: 0.7;
+}
+
+.brand-identity .brand-identity-statements {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    max-width: 400px;
+}
+.brand-identity .brand-identity-statements #brand-identity-headline {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 28px 0px;
+}
+.brand-identity .brand-identity-statements #brand-identity-tagline {
+    font-size: 18px;
+    line-height: 1.7rem;
+    margin: 35px 0px;
+    text-align: left;
+}
+
+/* Purchase process section styling */
+.process {
+    background-color: #f1f1f1;
+    color: #000000;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.process .process-headline {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.process .process-steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+.process .process-steps .process-step-items {
+    margin: 20px 10px;
+    padding: 30px 0px;
+}
+
+.process .process-steps .process-step-items img {
+    padding-bottom: 40px;
+}
+
+.process .process-steps .process-step-items .process-step-titles {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.process .process-steps .process-step-items .process-step-tagline {
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.process .process-steps .process-step-items .padd {
+    padding: 0px 20px;
+}
+
+/* Process section styling */
+.process button {
+    background-color: #008955;
+    border: none;
+    width: 180px;
+    height: 46px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.tags   {
+    text-decoration: none;
+    color: #008955;
+}
+
+.tags:hover{
+    color: #008955;
+}
+
+/* logos section styling */
+.partners-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 130px;
+}
+
+.partners-logos .logos {
+    height: 100%;
+    /* width: 50%; */
+    margin: 20px 20px;
+}
+.partners-logos .sizing {
+    display: block;
+    height: 90px;
+}
+
+/* Purchase section section */
+.purchase {
+    position: relative;
+    color: #ffffff;
+    background-color: #000;
+}
+
+.purchase .purchase_bg-img {
+    background-image: url(../assets/images/opendesk_leandesk_homepage.jpg);
+    background-position: bottom;
+    background-size: 1400px 900px;
+    background-repeat: no-repeat;
+    width: 1217px;
+    height: 700px;
+    opacity: 0.7;
+}
+
+.purchase .purchase-texts {
+    position: absolute;
+    top: 120px;
+    left: 130px;
+    max-width: 400px
+}
+
+.purchase .purchase-texts #purchase-headline {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 40px 0px;
+}
+
+.purchase .purchase-texts #purchase-tagline {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    margin: 35px 0px;
+    padding: 0px 3px 0px 0px;
+    text-align: left;
+}
+
+.purchase .purchase-texts button {
+    background-color: rgba(255, 255, 255, 0.77);
+    border: none;
+    width: 220px;
+    height: auto;
+    border-radius: 5px;
+    color: #323233;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    padding: 15px 5px;
+}
+
+/* Quote section styling */
+.quote  {
+    text-align: center;
+    padding: 50px 0px;
+    line-height: 1.2rem;
+    color: #777778;
+}
+
+.quote #quote-headline {
+    font-weight: 400;
+    font-size: 1.9rem;
+    margin: 40px 0px;
+}
+
+.quote #quote-tagline {
+    font-size: 1.4rem;
+    width: 750px;
+    margin: 0 auto;
+    font-style: italic;
+    line-height: 1.9rem;
+}
+
+/* logo2 stylings */
+#second-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+#second-logo .sizing {
+    height: 80px;
+}
+
+hr#rule {
+    border: 1px dashed #f1f1f1;
+}
